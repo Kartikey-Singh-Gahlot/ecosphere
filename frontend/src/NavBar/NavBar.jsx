@@ -3,8 +3,7 @@ export default function NavBar(){
         <ul>
             <li>Home</li>
             <li>About</li>
-            <li>Contact</li>
-            <li>Get Started</li>
+            <li>Contact Us</li>
         </ul>
     )
 }
