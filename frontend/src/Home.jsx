@@ -4,6 +4,7 @@ import pdfjsWorker from "pdfjs-dist/build/pdf.worker.min?url";
 
 
 import "./StyleSheets/Home.css";
+import NavBar from "./NavBar/NavBar.jsx";
 import { useState, useEffect } from "react";
 
 
@@ -101,6 +102,11 @@ export default function Home(){
 
  return(
      <main>
+         <header>
+              <nav>
+                  <NavBar/>
+              </nav>
+         </header>
          <h1>Home</h1>
      </main>
   )
