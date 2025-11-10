@@ -4,6 +4,7 @@ export default function NavBar(){
             <li>Home</li>
             <li>About</li>
             <li>Contact</li>
+            <li>Get Started</li>
         </ul>
     )
 }
